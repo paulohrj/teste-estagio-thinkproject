@@ -1,0 +1,32 @@
+Program Pzim ;
+var
+     horaInicial: integer;
+     minutoInicial: integer;
+     horaFinal: integer;
+     minutoFinal: integer;
+     minutosTotalIni: integer;
+     minutosTotalFim: integer;
+     diferencaTotalMinutos: real;
+     diferencaHoras: real;
+     diferencaEmMinutos: real;
+Begin
+  write ('Digite hora inicial: ');
+  readln(horaInicial);
+  write ('Digite minuto inicial: ');
+  readln(minutoInicial);
+  write ('Digite hora Final: ');
+  readln(horaFinal);
+  write ('Digite minuto Final: ');
+  readln(minutoFinal);
+
+  minutosTotalIni := (horaInicial * 60) + minutoInicial;
+  minutosTotalFim := (horaFInal * 60) + minutoFinal;
+
+  diferencaTotalMinutos := minutosTotalFim - minutosTotalIni;
+  
+  diferencaHoras :=  diferencaTotalMinutos / 60;
+  
+  
+  
+  write('Vc jogou : ',diferencaHoras ,+ ' Horas e Tantos Minutos : ' );
+End.

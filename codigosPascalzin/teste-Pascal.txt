@@ -1,0 +1,25 @@
+Program Pzim ;
+var
+	valorDeEntrada: real;
+Begin
+   write('Digite um valor: ');
+    readln(valorDeEntrada);
+    
+    if valorDeEntrada > 100 then
+    Begin
+    	writeln('Numeros de nota de 100: ' ,+ valorDeEntrada/100);	
+  		writeln('Numeros de nota de 50: ' ,+ valorDeEntrada/50);
+  		writeln('Numeros de nota de 20: ' ,+ valorDeEntrada/20);
+  		writeln('Numeros de nota de 10: ' ,+ valorDeEntrada/10);
+  		writeln('Numeros de nota de 5: ' ,+ valorDeEntrada/5);
+  		writeln('Numeros de nota de 2: ' ,+ valorDeEntrada/2);  
+		End
+			else 	
+  		writeln('Numeros de nota de 50: ' ,+ valorDeEntrada/50);
+  		writeln('Numeros de nota de 20: ' ,+ valorDeEntrada/20);
+  		writeln('Numeros de nota de 10: ' ,+ valorDeEntrada/10);
+  		writeln('Numeros de nota de 5: ' ,+ valorDeEntrada/5);
+  		writeln('Numeros de nota de 2: ' ,+ valorDeEntrada/2);  
+			
+    
+End.
